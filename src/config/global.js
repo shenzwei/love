@@ -1,8 +1,8 @@
 import resize from './resize'
 import util from './util'
 
-const width = util.isPhone() ? document.body.clientWidth : 360;
-const height = util.isPhone() ? document.body.clientHeight : 600;
+const width = util.isPhone() ? document.body.clientWidth : 600;
+const height = util.isPhone() ? document.body.clientHeight : 1000;
 
 //与时间有关的设置均为毫秒数，本文件底部会自动转化为帧数。
 // 大多属性都设有默认值，都可以不用修改   一般只需要修改中文文字
@@ -56,17 +56,17 @@ const config = (function(){
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
 			{type:6, name:'男子', txt:'快过年了，我们去放烟花吧！'},
-			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看。'},
+			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看呀'},
 			{type:2, name:'女子', txt:'再说你那有烟花吗？'},
-			{type:6, name:'男子', txt:'我当然有烟花啦。'},
+			{type:6, name:'男子', txt:'我当然有烟花啦'},
 			{type:6, name:'男子', txt:'你那有打火机吗？'},
 			{type:2, name:'女子', txt:'没有呀～'},
 			{type:6, name:'男子', txt:'那你是怎么点燃我的心的？'},
 			{type:2, name:'女子', txt:'。。。'},
-			{type:2, name:'女子', txt:'可是我的心还没有被你点燃呀。'},
-			{type:6, name:'男子', txt:'别慌，我去买个打火机先。'},
-			{type:2, name:'女子', txt:'打火机可点不燃我的心。'},
-			{type:6, name:'男子', txt:'天快黑了，我要为你点燃整片天空。'},
+			{type:2, name:'女子', txt:'可是我的心还没有被你点燃呀'},
+			{type:6, name:'男子', txt:'别慌，我去买个打火机先'},
+			{type:2, name:'女子', txt:'打火机可点不燃我的心'},
+			{type:6, name:'男子', txt:'天快黑了，我要为你点燃整片天空'},
 
 		],
 		// 阶段二
