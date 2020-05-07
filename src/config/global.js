@@ -55,19 +55,18 @@ const config = (function(){
 		},
 		// type对应上面的color与font  若没有对应的 则默认为color1或font1
 		dialogue:[
-			{type:6, name:'男子', txt:'快过年了，我们去放烟花吧！'},
-			{type:2, name:'女子', txt:'天还这么亮，现在放烟花也不好看呀'},
-			{type:2, name:'女子', txt:'再说你那有烟花吗？'},
-			{type:6, name:'男子', txt:'我当然有烟花啦'},
-			{type:6, name:'男子', txt:'你那有打火机吗？'},
-			{type:2, name:'女子', txt:'没有呀～'},
-			{type:6, name:'男子', txt:'那你是怎么点燃我的心的？'},
-			{type:2, name:'女子', txt:'。。。'},
-			{type:2, name:'女子', txt:'可是我的心还没有被你点燃呀'},
-			{type:6, name:'男子', txt:'别慌，我去买个打火机先'},
-			{type:2, name:'女子', txt:'打火机可点不燃我的心'},
-			{type:6, name:'男子', txt:'天快黑了，我要为你点燃整片天空'},
-
+			{type:6, name:'李先生', txt:'快过年了，我们去放烟花吧！'},
+			{type:2, name:'沈小姐', txt:'天还这么亮，现在放烟花也不好看呀'},
+			{type:2, name:'沈小姐', txt:'再说你那有烟花吗？'},
+			{type:6, name:'李先生', txt:'我当然有烟花啦'},
+			{type:6, name:'李先生', txt:'你那有打火机吗？'},
+			{type:2, name:'沈小姐', txt:'没有呀～'},
+			{type:6, name:'李先生', txt:'那你是怎么点燃我的心的？'},
+			{type:2, name:'沈小姐', txt:'。。。'},
+			{type:2, name:'沈小姐', txt:'可是我的心还没有被你点燃呀'},
+			{type:6, name:'李先生', txt:'别慌，我去买个打火机先'},
+			{type:2, name:'沈小姐', txt:'打火机可点不燃我的心'},
+			{type:6, name:'李先生', txt:'天快黑了，我要为你点燃整片天空'},
 		],
 		// 阶段二
 		sunset: 8000,   // 天黑时间
@@ -99,7 +98,7 @@ const config = (function(){
       gap: 3,   //粒子的间隔数 gap越大 粒子数越少
     },
     word:{  
-      size: 70,
+      size: 60,
       y: height / 4
     }, 
 
@@ -108,7 +107,7 @@ const config = (function(){
 		titleWords:'一不小心|就和你|到了白头', // '|' 为分隔符
 		titleOpt:{
 			gap: 4,
-			size: 70,  //最后字的大小
+			size: 60,  //最后字的大小
 			pSize: 8,
 			delay: 4000, //
 			distance: 120, //行间距
